@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<transmission xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AmazonInternalTransportationMessaging.xsd" sendingPartyID="AMAZON" receivingPartyID="TEXBR" transmissionCreationDate="2021-10-22T11:37:31Z" transmissionSchemaVersionNumber="1.0">
+    <message messageType="AMAZON_MFT">
+        <amazonManifest>
+            <manifestHeader>
+                <warehouseLocationID>SALQ</warehouseLocationID>
+                <manifestCreateDateTime>2021-10-22T08:37:24</manifestCreateDateTime>
+                <carrierInternalID>TEXBR</carrierInternalID>
+                <shipmentMethod>
+                    <amazonTechnicalName>TEXBR_EXPRESS</amazonTechnicalName>
+                </shipmentMethod>
+                <shipmentMethod>
+                    <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                </shipmentMethod>
+                <manifestNumber>1037712460303001</manifestNumber>
+                <carrierAccountID>7426</carrierAccountID>
+                <carrierManifestID />
+                <shipmentDate>2021-10-22T08:37:24</shipmentDate>
+                <currencyCode>BRL</currencyCode>
+                <shipFromAddress AddressType="SHIP_FROM">
+                    <name>SALQ</name>
+                    <addressLine1>Rua Santa Clara, 266</addressLine1>
+                    <addressLine2>Centro</addressLine2>
+                    <city>Sorocaba</city>
+                    <stateChoice>
+                        <stateProvince>SP</stateProvince>
+                    </stateChoice>
+                    <zip>18035-252</zip>
+                    <countryCode>BR</countryCode>
+                    <countryName>BR</countryName>
+                    <contactPhone>5511973689626</contactPhone>
+                </shipFromAddress>
+                <shipperInformation>
+                    <amazonTaxID>AmazonTaxID</amazonTaxID>
+                </shipperInformation>
+                <prepaidCollect>PREPAID</prepaidCollect>
+            </manifestHeader>
+            <manifestDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-4160839-1701017</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Luiz Henrique Minamizaki</name>
+                        <addressLine1>RUA  YOLANDO MALOZZI</addressLine1>
+                        <addressLine2>340</addressLine2>
+                        <city>ATIBAIA</city>
+                        <stateChoice>
+                            <stateProvince>sp</stateProvince>
+                        </stateChoice>
+                        <zip>12942450</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>11982884465</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>178814256003</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>23007846889</customerCnpjCpf>
+                            <nfeNumber>39673</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396731349304907</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T15:18:54</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>RUA YOLANDO MALOZZI</Street>
+                                <number>-</number>
+                                <complement>340</complement>
+                                <borough>Alvinopolis</borough>
+                                <zipcode>12942450</zipcode>
+                                <city>ATIBAIA</city>
+                                <state>SP</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>27.35</nfeProductsTotalValue>
+                            <nfeTotalValue>39.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">14.13</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MBNmnLgKL_001</amazonBarCode>
+                            <encryptedShipmentID>MBNmnLgKL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126742778tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_SP1</shipZone>
+                        <shipSort>BGAZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-26</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.25</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.24</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">13.7</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">1.4</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6559609537</itemID>
+                            <itemTitle>As Qu�ntuplas - 10</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">39.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>701-0223874-0101034</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Cec�lia Brum de Moraes</name>
+                        <addressLine1>Rua 904 640</addressLine1>
+                        <addressLine2>ap 108 Bloco C Centro</addressLine2>
+                        <city>Balne�rio Cambori�</city>
+                        <stateChoice>
+                            <stateProvince>SC</stateProvince>
+                        </stateChoice>
+                        <zip>88330590</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>47999877740</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>579614688703</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>07298882902</customerCnpjCpf>
+                            <nfeNumber>39750</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000397501349304908</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-22T08:16:47</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua 904 640</Street>
+                                <number>-</number>
+                                <complement>ap 108 Bloco C Centro</complement>
+                                <borough>Centro</borough>
+                                <zipcode>88330590</zipcode>
+                                <city>Balneario Camboriu</city>
+                                <state>SC</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>33.59</nfeICMSAmount>
+                            <nfeProductsTotalValue>166.43</nfeProductsTotalValue>
+                            <nfeTotalValue>279.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">21.71</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">279.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">279.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MkCvhn8lL_001</amazonBarCode>
+                            <encryptedShipmentID>MkCvhn8lL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126750166tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_SCI</shipZone>
+                        <shipSort>CBRZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-28</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.75</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.75</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">24.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">6.0</heightValue>
+                            <widthValue unitOfMeasure="CM">14.0</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">B09GF91SPP</itemID>
+                            <itemTitle>Box Pok�mon Treinador Avan�ado C�us Em Evolu��o - Copag</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">279.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">279.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">279.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>701-0223874-0101034</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Cec�lia Brum de Moraes</name>
+                        <addressLine1>Rua 904 640</addressLine1>
+                        <addressLine2>ap 108 Bloco C Centro</addressLine2>
+                        <city>Balne�rio Cambori�</city>
+                        <stateChoice>
+                            <stateProvince>SC</stateProvince>
+                        </stateChoice>
+                        <zip>88330590</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>47999877740</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>579614688703</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>07298882902</customerCnpjCpf>
+                            <nfeNumber>39687</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396871349304902</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T17:08:34</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua 904 640</Street>
+                                <number>-</number>
+                                <complement>ap 108 Bloco C Centro</complement>
+                                <borough>Centro</borough>
+                                <zipcode>88330590</zipcode>
+                                <city>Balneario Camboriu</city>
+                                <state>SC</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>11.99</nfeICMSAmount>
+                            <nfeProductsTotalValue>59.40</nfeProductsTotalValue>
+                            <nfeTotalValue>99.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">21.99</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">99.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">99.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MtCjhq8lL_001</amazonBarCode>
+                            <encryptedShipmentID>MtCjhq8lL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126746428tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_SCI</shipZone>
+                        <shipSort>CBRZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-28</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">1.0</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.8</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">30.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">10.0</heightValue>
+                            <widthValue unitOfMeasure="CM">40.0</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">B08P3TXLZ9</itemID>
+                            <itemTitle>Box Pok�mon Hatterene V</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">99.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">99.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="POUNDS">0.573202</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">99.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>701-8941977-7988259</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>M�rcio Aparecido Meneghesso</name>
+                        <addressLine1>Rua Prefeito �ngelo Domesi 211</addressLine1>
+                        <addressLine2>Casa Jardim Paulista</addressLine2>
+                        <city>Igara�u do Tiet�</city>
+                        <stateChoice>
+                            <stateProvince>SP</stateProvince>
+                        </stateChoice>
+                        <zip>17352140</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>981162596</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>519372053903</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>13079041810</customerCnpjCpf>
+                            <nfeNumber>39677</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396771349304906</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T15:51:48</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua Prefeito Angelo Domesi 211</Street>
+                                <number>-</number>
+                                <complement>Casa Jardim Paulista</complement>
+                                <borough>Jardim Paulista</borough>
+                                <zipcode>17352140</zipcode>
+                                <city>Igaracu do Tiete</city>
+                                <state>SP</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>27.35</nfeProductsTotalValue>
+                            <nfeTotalValue>39.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">13.49</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MWzwcy88L_001</amazonBarCode>
+                            <encryptedShipmentID>MWzwcy88L</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126742875tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_EXPRESS</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_EXP_SP3</shipZone>
+                        <shipSort>SAO</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-28</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.3</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.27</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">13.7</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">16.4</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6559820149</itemID>
+                            <itemTitle>Moriarty: O Patriota - 14</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">39.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>701-1219063-2780228</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Ana</name>
+                        <addressLine1>Rua Alameda dos Tamoios 0</addressLine1>
+                        <addressLine2>Qd 04 LT 24 Jardim Alexandrina</addressLine2>
+                        <city>An�polis</city>
+                        <stateChoice>
+                            <stateProvince>GO</stateProvince>
+                        </stateChoice>
+                        <zip>75060200</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>+5562983194279</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>539764025003</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>01999390121</customerCnpjCpf>
+                            <nfeNumber>39683</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396831349304903</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T16:12:00</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua Alameda dos Tamoios 0</Street>
+                                <number>-</number>
+                                <complement>Qd 04 LT 24 Jardim Alexandrina</complement>
+                                <borough>Jardim Alexandrina</borough>
+                                <zipcode>75060200</zipcode>
+                                <city>Anapolis</city>
+                                <state>GO</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>22.55</nfeProductsTotalValue>
+                            <nfeTotalValue>32.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">18.80</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">32.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">32.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MfL23l8yL_001</amazonBarCode>
+                            <encryptedShipmentID>MfL23l8yL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126749267tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_GOI</shipZone>
+                        <shipSort>GYXZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-26</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.25</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.25</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">20.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">14.2</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">8542615549</itemID>
+                            <itemTitle>Dragon Ball Super Vol. 6</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">32.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">32.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="POUNDS">0.75</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">32.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>701-1188019-2136268</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Tadeu Lucas Alves de Oliveira silv</name>
+                        <addressLine1>Alameda Jos� de Oliveira Guimar�es 700</addressLine1>
+                        <addressLine2>Bl 10 ap 304 Jardim Holanda</addressLine2>
+                        <city>Uberl�ndia</city>
+                        <stateChoice>
+                            <stateProvince>Minas gerais</stateProvince>
+                        </stateChoice>
+                        <zip>38412324</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>34999932625</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>314139513903</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>09115006697</customerCnpjCpf>
+                            <nfeNumber>39689</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396891349304907</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T17:25:55</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Alameda Jose de Oliveira Guimaraes 700</Street>
+                                <number>-</number>
+                                <complement>Bl 10 ap 304 Jardim Holanda</complement>
+                                <borough>Jardim Holanda</borough>
+                                <zipcode>38412324</zipcode>
+                                <city>Uberlandia</city>
+                                <state>MG</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>25.98</nfeProductsTotalValue>
+                            <nfeTotalValue>37.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">12.45</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">37.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">37.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-M7kpybDQL_001</amazonBarCode>
+                            <encryptedShipmentID>M7kpybDQL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126742802tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_MGI</shipZone>
+                        <shipSort>UDIZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-28</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.25</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.19</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">13.7</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">1.0</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6559609359</itemID>
+                            <itemTitle>One Piece - 99</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">37.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">37.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">37.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-9897397-0025847</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Shirlene F A Fialho</name>
+                        <addressLine1>Rua Cedro 318</addressLine1>
+                        <addressLine2>Apto 302 Jardim Laguna</addressLine2>
+                        <city>Contagem</city>
+                        <stateChoice>
+                            <stateProvince>MG</stateProvince>
+                        </stateChoice>
+                        <zip>32140030</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>(55) 31 994194109</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>566846330603</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>01269154664</customerCnpjCpf>
+                            <nfeNumber>39691</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396911349304905</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T17:57:14</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua Cedro 318</Street>
+                                <number>-</number>
+                                <complement>Apto 302 Jardim Laguna</complement>
+                                <borough>Jardim Laguna</borough>
+                                <zipcode>32140030</zipcode>
+                                <city>Contagem</city>
+                                <state>MG</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>27.35</nfeProductsTotalValue>
+                            <nfeTotalValue>39.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">12.50</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MkqQDlDLL_001</amazonBarCode>
+                            <encryptedShipmentID>MkqQDlDLL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126743421tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_MGI</shipZone>
+                        <shipSort>VIPZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-28</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.3</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.3</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">18.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">13.0</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6559600807</itemID>
+                            <itemTitle>Chainsaw Man Vol. 2</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">39.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-9679306-3114641</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>DAILANE Adami</name>
+                        <addressLine1>Rua Ign�cio A da Maia 85</addressLine1>
+                        <addressLine2>Boa Vista</addressLine2>
+                        <city>Joinville</city>
+                        <stateChoice>
+                            <stateProvince>SC</stateProvince>
+                        </stateChoice>
+                        <zip>89206060</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>47997882535</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>506141802303</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>03090250950</customerCnpjCpf>
+                            <nfeNumber>39676</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396761349304909</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T15:42:48</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua Ignacio A da Maia 85</Street>
+                                <number>-</number>
+                                <complement>Boa Vista</complement>
+                                <borough>Boa Vista</borough>
+                                <zipcode>89206060</zipcode>
+                                <city>Joinville</city>
+                                <state>SC</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>27.35</nfeProductsTotalValue>
+                            <nfeTotalValue>39.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">18.15</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MhFqBb8XL_001</amazonBarCode>
+                            <encryptedShipmentID>MhFqBb8XL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126743078tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_SCI</shipZone>
+                        <shipSort>JOXZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-28</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.5</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.35</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">17.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">13.0</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6555128135</itemID>
+                            <itemTitle>Kaguya Sama - Love is war - 01</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="POUNDS">0.75</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">39.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-2807679-1561065</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Hugo</name>
+                        <addressLine1>Avenida Doutor Altino Arantes 835</addressLine1>
+                        <addressLine2>Apto. 131 Vila Clementino</addressLine2>
+                        <city>S�o Paulo</city>
+                        <stateChoice>
+                            <stateProvince>SP</stateProvince>
+                        </stateChoice>
+                        <zip>04042030</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>+5511993449445</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>519968544003</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>27660712888</customerCnpjCpf>
+                            <nfeNumber>39671</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396711349304902</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T15:05:49</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Avenida Doutor Altino Arantes 835</Street>
+                                <number>-</number>
+                                <complement>Apto. 131 Vila Clementino</complement>
+                                <borough>Vila Clementino</borough>
+                                <zipcode>04042030</zipcode>
+                                <city>Sao Paulo</city>
+                                <state>SP</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>35.98</nfeICMSAmount>
+                            <nfeProductsTotalValue>118.86</nfeProductsTotalValue>
+                            <nfeTotalValue>199.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">16.16</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">199.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">199.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-Mv8ZfJg7L_001</amazonBarCode>
+                            <encryptedShipmentID>Mv8ZfJg7L</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126745650tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_EXPRESS</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_EXP_SPC</shipZone>
+                        <shipSort>TZS</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-23</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">1.0</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.8</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">26.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">15.0</heightValue>
+                            <widthValue unitOfMeasure="CM">18.0</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">B08NWHZ918</itemID>
+                            <itemTitle>Cole��o 4 Box Pok�mon Caminho do Campe�o Gin�sios Circhester e Stow-On-Side Copag cards cartas</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">199.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">199.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">199.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-2701471-2713067</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>bruno pelizari</name>
+                        <addressLine1>Alameda Gilberto Graziadei 151</addressLine1>
+                        <addressLine2>Jardim Alvorada</addressLine2>
+                        <city>Bebedouro</city>
+                        <stateChoice>
+                            <stateProvince>SP</stateProvince>
+                        </stateChoice>
+                        <zip>14706232</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>991108219</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>550019315503</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>44222354864</customerCnpjCpf>
+                            <nfeNumber>39708</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000397081349304904</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T21:09:08</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Alameda Gilberto Graziadei 151</Street>
+                                <number>-</number>
+                                <complement>Jardim Alvorada</complement>
+                                <borough>Jardim California</borough>
+                                <zipcode>14706232</zipcode>
+                                <city>Bebedouro</city>
+                                <state>SP</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>27.35</nfeProductsTotalValue>
+                            <nfeTotalValue>39.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">14.20</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MhtBv98rL_001</amazonBarCode>
+                            <encryptedShipmentID>MhtBv98rL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126745340tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_SP3</shipZone>
+                        <shipSort>BATZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-26</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.25</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.21</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">13.7</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">1.2</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6559609383</itemID>
+                            <itemTitle>Konosuba: Aben�oado Mundo Maravilhoso! - 02</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">39.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-7284274-7896257</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Gabriel Carvalho gomes</name>
+                        <addressLine1>Rua Alex Novelino Barramares 450</addressLine1>
+                        <addressLine2>Ap 201 Vila Nova</addressLine2>
+                        <city>Cabo Frio</city>
+                        <stateChoice>
+                            <stateProvince>RJ</stateProvince>
+                        </stateChoice>
+                        <zip>28907350</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>022992018633</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>340098167603</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>19729307709</customerCnpjCpf>
+                            <nfeNumber>39681</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396811349304909</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T16:03:14</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua Alex Novelino Barramares 450</Street>
+                                <number>-</number>
+                                <complement>Ap 201 Vila Nova</complement>
+                                <borough>Vila Nova</borough>
+                                <zipcode>28907350</zipcode>
+                                <city>Cabo Frio</city>
+                                <state>RJ</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>41.06</nfeProductsTotalValue>
+                            <nfeTotalValue>59.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">17.18</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">59.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">59.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MxtTCRgLL_001</amazonBarCode>
+                            <encryptedShipmentID>MxtTCRgLL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126748222tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_SUPEX</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_SUP_RJI</shipZone>
+                        <shipSort>ARMZ</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-26</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.5</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.37</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">20.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">13.5</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">8542610741</itemID>
+                            <itemTitle>One Piece Green \(Edi��o �nica\)</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">59.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">59.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">59.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>702-8580983-5817013</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Ruth Acmita Rodrigues dos Santos</name>
+                        <addressLine1>Rua Francisco Solon 144</addressLine1>
+                        <addressLine2>Boa Vista</addressLine2>
+                        <city>Mossor�</city>
+                        <stateChoice>
+                            <stateProvince>RN</stateProvince>
+                        </stateChoice>
+                        <zip>59605280</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>+55 (84) 9 9940-2546</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>570099610403</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>70320549437</customerCnpjCpf>
+                            <nfeNumber>39672</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396721349304900</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T15:18:00</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Rua Francisco Solon 144</Street>
+                                <number>-</number>
+                                <complement>Boa Vista</complement>
+                                <borough>Boa Vista</borough>
+                                <zipcode>59605280</zipcode>
+                                <city>Mossoro</city>
+                                <state>RN</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>34.21</nfeProductsTotalValue>
+                            <nfeTotalValue>49.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">20.33</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">49.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">49.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MkFVW6g6L_001</amazonBarCode>
+                            <encryptedShipmentID>MkFVW6g6L</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126748505tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_EXPRESS</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_EXP_RNI</shipZone>
+                        <shipSort>NTA</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-11-11</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.5</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.49</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">20.0</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">13.6</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">8542627822</itemID>
+                            <itemTitle>Jojo's Bizarre Adventure - Volume 3: Parte 3: Stardust Crusaders</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">49.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">49.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="POUNDS">1.102311</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">49.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+                <shipmentDetail>
+                    <customerOrderNumber>701-2479034-3906640</customerOrderNumber>
+                    <consigneeAddress AddressType="CONSIGNEE">
+                        <name>Ivan Almeida do Amaral</name>
+                        <addressLine1>Avenida Professor The�crito Batista 1353, Citta Firenze</addressLine1>
+                        <addressLine2>Ap.404, Bloco7 Caji</addressLine2>
+                        <city>Lauro de Freitas</city>
+                        <stateChoice>
+                            <stateProvince>BA</stateProvince>
+                        </stateChoice>
+                        <zip>42721810</zip>
+                        <countryCode>BR</countryCode>
+                        <countryName>Brazil</countryName>
+                        <contactPhone>71999440908</contactPhone>
+                    </consigneeAddress>
+                    <isExportChargePrepaid>N</isExportChargePrepaid>
+                    <addressId>396547827203</addressId>
+                    <brNFes>
+                        <brNFe>
+                            <sellerCnpj>34930490000147</sellerCnpj>
+                            <customerCnpjCpf>04387047542</customerCnpjCpf>
+                            <nfeNumber>39682</nfeNumber>
+                            <nfeSerie>1</nfeSerie>
+                            <nfeAccessCode>35211034930490000147550010000396821349304906</nfeAccessCode>
+                            <nfeIssuanceDate>2021-10-21T16:03:23</nfeIssuanceDate>
+                            <nfeAddress>
+                                <Street>Avenida Professor Theocrito Batista 1353</Street>
+                                <number>-</number>
+                                <complement>Ap.404, Bloco7 Caji</complement>
+                                <borough>Caji</borough>
+                                <zipcode>42721810</zipcode>
+                                <city>Lauro de Freitas</city>
+                                <state>BA</state>
+                            </nfeAddress>
+                            <nfeICMSSTAmount>0.00</nfeICMSSTAmount>
+                            <nfeICMSAmount>0.00</nfeICMSAmount>
+                            <nfeProductsTotalValue>27.35</nfeProductsTotalValue>
+                            <nfeTotalValue>39.90</nfeTotalValue>
+                        </brNFe>
+                    </brNFes>
+                    <shipmentCostInfo>
+                        <termsOfSale>DDU</termsOfSale>
+                        <amazonFreightCost>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">17.09</monetaryAmount>
+                        </amazonFreightCost>
+                        <valueOfGoods>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </valueOfGoods>
+                        <CIF>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                        </CIF>
+                        <consigneeFreightCharge>
+                            <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                            <monetaryAmount currencyISOCode="BRL">0.00</monetaryAmount>
+                        </consigneeFreightCharge>
+                    </shipmentCostInfo>
+                    <shipmentPackageInfo>
+                        <cartonID>
+                            <amazonBarCode>22-MkmVvR8FL_001</amazonBarCode>
+                            <encryptedShipmentID>MkmVvR8FL</encryptedShipmentID>
+                            <packageID>1</packageID>
+                            <trackingID>AMZA126744846tx</trackingID>
+                        </cartonID>
+                        <packageShipmentMethod>
+                            <amazonTechnicalName>TEXBR_EXPRESS</amazonTechnicalName>
+                        </packageShipmentMethod>
+                        <shipZone>TEXBR_EXP_BAI</shipZone>
+                        <shipSort>SSA</shipSort>
+                        <commercialInvoiceDate>2021-10-22</commercialInvoiceDate>
+                        <scheduledDeliveryDate>2021-10-29</scheduledDeliveryDate>
+                        <shipmentPackageDeclaredGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.25</weightValue>
+                        </shipmentPackageDeclaredGrossWeight>
+                        <shipmentPackageDimWtCalcMethod>DIM_WEIGHT</shipmentPackageDimWtCalcMethod>
+                        <shipmentPackageActualGrossWeight>
+                            <weightValue unitOfMeasure="KG">0.24</weightValue>
+                        </shipmentPackageActualGrossWeight>
+                        <shipmentPackageDimensions>
+                            <lengthValue unitOfMeasure="CM">13.7</lengthValue>
+                            <heightValue unitOfMeasure="CM">1.0</heightValue>
+                            <widthValue unitOfMeasure="CM">1.4</widthValue>
+                        </shipmentPackageDimensions>
+                        <shipmentPackageItemDetail>
+                            <itemID type="AMAZON_ASIN" isFreeRep="N">6559820181</itemID>
+                            <itemTitle>Demon Slayer - Kimetsu no Yaiba - 20</itemTitle>
+                            <itemQuantity>
+                                <quantity unitOfMeasure="EA">1</quantity>
+                            </itemQuantity>
+                            <isHazmat>N</isHazmat>
+                            <itemPriceInfo>
+                                <itemUnitPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemUnitPrice>
+                                <itemExtendedPrice>
+                                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                                    <monetaryAmount currencyISOCode="BRL">39.90</monetaryAmount>
+                                </itemExtendedPrice>
+                            </itemPriceInfo>
+                            <itemWeight>
+                                <weightValue unitOfMeasure="KG">0.0</weightValue>
+                            </itemWeight>
+                            <harmonizedTariffNumber>0000.00.0000</harmonizedTariffNumber>
+                            <harmonizedTariffDescription>Unknown</harmonizedTariffDescription>
+                            <countryOfOrigin>BR</countryOfOrigin>
+                        </shipmentPackageItemDetail>
+                        <totalDeclaredValue currencyISOCode="BRL">39.90</totalDeclaredValue>
+                        <pkgHarmonizedTariffDescription>Unknown - New (count 1) </pkgHarmonizedTariffDescription>
+                        <shipmentPackageItemQuantity>
+                            <quantity unitOfMeasure="EA">1</quantity>
+                        </shipmentPackageItemQuantity>
+                    </shipmentPackageInfo>
+                    <reasonForExport>PERMANENT</reasonForExport>
+                </shipmentDetail>
+            </manifestDetail>
+            <manifestSummary>
+                <totalShipmentQuantity>
+                    <quantity unitOfMeasure="EA">13</quantity>
+                </totalShipmentQuantity>
+                <totalShipmentValue>
+                    <chargeOrAllowance>CHARGE</chargeOrAllowance>
+                    <monetaryAmount currencyISOCode="BRL">999.70</monetaryAmount>
+                </totalShipmentValue>
+                <totalDeclaredGrossWeight>
+                    <weightValue unitOfMeasure="KG">6.1</weightValue>
+                </totalDeclaredGrossWeight>
+                <totalActualGrossWeight>
+                    <weightValue unitOfMeasure="KG">5.26</weightValue>
+                </totalActualGrossWeight>
+            </manifestSummary>
+        </amazonManifest>
+    </message>
+</transmission>
